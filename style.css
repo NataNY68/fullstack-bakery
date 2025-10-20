@@ -1,3 +1,20 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
 .brand {
   display: flex;
   font-size: 35px;
@@ -87,10 +104,10 @@ figure {
 }
 
 footer {
+  margin-top: auto;
   background-color: black;
   color: white;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 13px;
-  /*margin-top: auto; */
 }
