@@ -1,0 +1,96 @@
+.brand {
+  display: flex;
+  font-size: 35px;
+  color: darkred;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 8px;
+  margin: 0px;
+}
+
+li {
+  display: flex;
+  background-color: rgb(145, 8, 8);
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  margin: 0px;
+  padding-left: 15px;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+article p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+blockquote {
+  text-align: left;
+  margin: 0px;
+}
+
+.testimonial {
+  margin: 0px;
+  padding: 20px;
+  text-align: left;
+}
+
+figure {
+  background-color: lightgray;
+  margin-left: 0px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 13px;
+  /*margin-top: auto; */
+}
